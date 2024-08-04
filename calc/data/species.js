@@ -4073,7 +4073,7 @@ var BW_PATCH = {
         nfe: true
     },
     Dewott: {
-        types: ['Water'],
+        types: ['Water', 'Fighting'],
         bs: { hp: 75, at: 75, df: 60, sa: 83, sd: 60, sp: 60 },
         weightkg: 24.5,
         nfe: true,
@@ -4140,7 +4140,7 @@ var BW_PATCH = {
         abilities: { 0: 'Telepathy' }
     },
     Emboar: {
-        types: ['Fire', 'Fighting'],
+        types: ['Fire', 'Ground'],
         bs: { hp: 110, at: 123, df: 65, sa: 100, sd: 65, sp: 65 },
         weightkg: 150,
         abilities: { 0: 'Blaze' }
@@ -4628,7 +4628,7 @@ var BW_PATCH = {
         abilities: { 0: 'Big Pecks' }
     },
     Pignite: {
-        types: ['Fire', 'Fighting'],
+        types: ['Fire', 'Ground'],
         bs: { hp: 90, at: 93, df: 55, sa: 70, sd: 55, sp: 55 },
         weightkg: 55.5,
         nfe: true,
@@ -4669,7 +4669,7 @@ var BW_PATCH = {
         abilities: { 0: 'Keen Eye' }
     },
     Samurott: {
-        types: ['Water'],
+        types: ['Water' , 'Fighting'],
         bs: { hp: 95, at: 100, df: 85, sa: 108, sd: 70, sp: 70 },
         weightkg: 94.6,
         abilities: { 0: 'Torrent' }
@@ -4726,7 +4726,7 @@ var BW_PATCH = {
         abilities: { 0: 'Swift Swim' }
     },
     Serperior: {
-        types: ['Grass'],
+        types: ['Grass', 'Dragon'],
         bs: { hp: 75, at: 75, df: 95, sa: 75, sd: 95, sp: 113 },
         weightkg: 63,
         abilities: { 0: 'Overgrow' }
@@ -5060,7 +5060,7 @@ var XY_PATCH = {
     Azurill: { types: ['Normal', 'Fairy'] },
     Banette: { otherFormes: ['Banette-Mega'] },
     Beautifly: { bs: { sa: 100 } },
-    Beedrill: { bs: { at: 90 }, otherFormes: ['Beedrill-Mega'] },
+    Beedrill: { bs: { at: 120 }, otherFormes: ['Beedrill-Mega'] },
     Bellossom: { bs: { df: 95 } },
     Blastoise: { otherFormes: ['Blastoise-Mega'] },
     Blaziken: { otherFormes: ['Blaziken-Mega'] },
